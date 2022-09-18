@@ -12,12 +12,13 @@ header {
     border-bottom: 1px solid seashell;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
     height: 69px;
     background-color: black;
 }
 
 .logo {
-    height: 10px;
+    margin-left: 10px;
 }
 
 .logo img {
@@ -101,6 +102,7 @@ main {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 15px;
 }
 
 .location {
@@ -117,4 +119,10 @@ main {
 
 .contact {
     text-align: center;
+}
+
+footer {
+    display: inline-flex;
+    text-align: left;
+    margin-left: 20px;
 }
